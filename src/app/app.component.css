@@ -1,0 +1,35 @@
+div#navbar {
+    text-align: center;
+    list-style: none;
+    padding: 10px;
+    background-color: rgba(166, 210, 243, 0.89);
+    border: 2px rgb(187, 185, 185) solid;
+    border-radius: 10px;
+}
+
+div#navbar button {
+    font-size: 130%;
+    background-color: rgba(255, 255, 255, 0.61);
+    transition: 0.2s;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+
+div#navbar button:hover {
+    font-size: 135%;
+    background-color: rgba(116, 144, 160, 0.61);
+    transition: 0.2s;
+}
+
+div#navbar button:active {
+    background-color: rgba(7, 69, 105, 0.61);
+    transition: 0.2s;
+}
+
+#header h2 {
+    text-align: center;
+    font-size: 220%;
+    font-family: 'Century Gothic'
+}
