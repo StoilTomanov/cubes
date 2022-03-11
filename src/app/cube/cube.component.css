@@ -41,3 +41,10 @@ div#checkBtn button:active {
     background-color: rgba(7, 69, 105, 0.61);
     transition: 0.2s;
 }
+
+div#message h4 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 120%;
+    text-shadow: 2px 2px 5px rgba(105, 105, 105, 0.678);
+}
