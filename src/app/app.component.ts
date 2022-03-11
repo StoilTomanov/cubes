@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Cube';
 
-  public clearGrid(){
+  public clearGrid() {
     const arr = document.querySelectorAll<HTMLInputElement>('.grid');
-    arr.forEach((el)=>{
+    arr.forEach((el) => {
       el.value = '';
     });
   }
