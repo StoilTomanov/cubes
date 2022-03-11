@@ -1,19 +1,14 @@
 <div id="cube">
-    <div class="row">
-        <input type="text" name="digit" class="grid" id="grid">
-        <input type="text" name="digit" class="grid">
-        <input type="text" name="digit" class="grid">
+    <div class="row" *ngFor="let i of rows">
+        <input type="text" name="digit" class="grid" value="">
+        <input type="text" name="digit" class="grid" value="">
+        <input type="text" name="digit" class="grid" value="">
     </div>
-    <div class="row">
-        <input type="text" name="digit" class="grid">
-        <input type="text" name="digit" class="grid">
-        <input type="text" name="digit" class="grid">
-    </div>
-    <div class="row">
-        <input type="text" name="digit" class="grid">
-        <input type="text" name="digit" class="grid">
-        <input type="text" name="digit" class="grid">
-    </div>
+</div>
+<div>
+    <h4>
+        {{message}}
+    </h4>
 </div>
 
 <div id="checkBtn">
